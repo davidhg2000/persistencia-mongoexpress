@@ -3,8 +3,8 @@ POST http://localhost:3000/usuarios/register
 Content-Type: application/json
 
 {
-    "nombre": "Alex", 
-    "email": "alex@example.com",
+    "nombre": "Campos", 
+    "email": "campos@example.com",
     "password": "123456"
 }
 
@@ -21,6 +21,7 @@ Content-Type: application/json
 ### Obtener lista de usuarios (Requiere token)
 GET http://localhost:3000/usuarios
 Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2VlNDIwZmRkNzNlNGQwZWE1NWUwYzciLCJyb2wiOiJhZG1pbiIsImlhdCI6MTc0MzY4MDA4MSwiZXhwIjoxNzQzNjgzNjgxfQ.XP7tI4teefGPfofs6V-8WwxLtxHogVE3mXFQ65t-_YE
+
 ### Obtener lista de usuarios
 GET http://localhost:3000/usuarios
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2VlNDIwZmRkNzNlNGQwZWE1NWUwYzciLCJyb2wiOiJhZG1pbiIsImlhdCI6MTc0MzY3MDc0MywiZXhwIjoxNzQzNjc0MzQzfQ.Q-mbC2xZXFWo9t2Tz2Wl-eWwh-dL7PcTBGzsbqYqjGA
